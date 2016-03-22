@@ -4,7 +4,7 @@ To this end, we have written [code](../Code/DataDL.py) which can be utilized [in
 
 The code downloads the data to this data folder.
 
-The [.gitignore file](../'.gitignore') tells git to not update anything from the data folder.
+The [.gitignore file](../.gitignore) tells git to not update anything from the data folder.
 
 The code and the gitignore file accomplish two things:
 
