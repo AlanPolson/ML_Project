@@ -62,7 +62,7 @@ def downloadGeoDict(state, path):
 def main():
     for state in states.iteritems():
         print state
-        # downoadTablesForState(state, '../../Data/ACS/states')
+        downoadTablesForState(state, '../../Data/ACS/states')
         downloadGeoDict(state, '../../Data/ACS/states')
 
 
