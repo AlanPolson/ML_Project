@@ -5,7 +5,7 @@ import glob
 import sys
 
 # PUMA : gh 795
-# Census Block: gh ...
+# Census Block: gh 150
 
 
 def getData(folder, gf):
@@ -14,8 +14,8 @@ def getData(folder, gf):
 
 
 def read_filter(file_, gf=795):
-	df = pd.read_csv(file_, anyindex_col=None, header=None)
-	return df.loc[df[2] == gf]  # only specific geographical level
+	df = pd.read_csv(file_, low_memory=False, index_col=None, header=None, dtype=str)
+	return df.loc[df[2] == str(gf)]  # only specific geographical level
 
 
 def main(path, gf, outpath=None):
@@ -34,4 +34,4 @@ def main(path, gf, outpath=None):
 	print 'Saved data to:\n%s' % outpath
 
 if __name__ == '__main__':
-	main(sys.argv[1], sys.argv[2], sys.argv[3])
+	main(sys.argv[1], int(sys.argv[2]), sys.argv[3])
