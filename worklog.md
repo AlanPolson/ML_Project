@@ -39,4 +39,10 @@ Our models are:
 - Elastic Net
 
 
+#### 5. Geographies
+
+Now we need to attach our predicted values to each block level boundary in New York State
+- get 2013 block group boundaries shapefiles [here](https://www.census.gov/geo/maps-data/data/cbf/cbf_blkgrp.html)
+- or [here](https://www.census.gov/geo/maps-data/data/tiger-line.html)
+- and take geographical documentation for New York [here](http://www2.census.gov/programs-surveys/acs/summary_file/2013/documentation/geography/)
 
