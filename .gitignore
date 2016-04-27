@@ -1,5 +1,5 @@
 /data
-/Code/.ipynb_checkpoints/
+/Code/*.ipynb_checkpoints/
 /Code/*trial*.ipynb
 /Code/*.pyc
 /Code/AggregatePums.ipynb
