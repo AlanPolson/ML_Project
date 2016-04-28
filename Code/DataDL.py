@@ -45,8 +45,12 @@ def download_source(url,pth="", zp=False):
             print "Unable to access zipfile"
 
     else:
-        fil = path+url.split("/")[-1]
+        import os
+        d = os.path.dirname(path)
+        if not os.path.exists(d):
+            os.makedirs(d)
+        fil = path+url.split("/")[-1].split('?')[0]
         response = urllib2.urlopen(url)
-        with open(fil, 'w') as f: 
+        with open(fil, 'wb') as f: 
             f.write(response.read())
         return fil
