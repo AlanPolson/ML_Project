@@ -3,6 +3,6 @@ This is the repository for our Machine Learning Project, where we try to map fea
 
 Details are in [worklog](worklog.md)
 
-Our Project Report can be viewed [here](https://docs.google.com/a/nyu.edu/document/d/1mdNq0itAMR55rcf6Z9s9UNzxFEf_JAMXtcj8HLojRjY/edit?usp=sharing)
+Our Project Report can be viewed [here](Deliverables/Documentation/Machine_Learning_Final_Paper.pdf)
 
 Resulting map can be seen here: https://nyu.cartodb.com/u/pbk236/viz/de60883e-0ca6-11e6-a0df-0ecd1babdde5/public_map
